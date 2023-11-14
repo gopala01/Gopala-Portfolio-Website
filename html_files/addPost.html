@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="reset" href="../css_files/reset.css">
+        <link rel="stylesheet" href="../css_files/stylesheet.css">
+        <script src="script.js"></script>
+        
+    </head>
+
+    <body>
+
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li class="nav_name">Gopala Bhamidipati</li>
+                    <li><a href="home.html">Home</li>
+                    <li><a href="about_myself.html">Myself</a></li>
+                    <li><a href="skills_education_experience.html">Skills, Education and Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <h1><strong>Gopala Bhamidipati</strong></h1>
+        
+
+        <div id="postForm">
+            <form id="addBlogForm" method="post" action="#" onsubmit="rejectNull(event)">
+                <fieldset>
+                    <legend>Add Blog</legend>
+    
+                    <input type="text" name="title" size="30em" placeholder="Title" class="input_text" id="inputTitle" > <br>
+    
+                    <textarea name="enter_text" cols="27" rows="5" placeholder="Enter your text here" class="input_text" id="inputText"></textarea>
+                    <!-- <input type="text" name="enter_text" size="30em" height="30em" 
+                    placeholder="Enter your text here" class="input_text" id="inputText"> -->
+    
+                    <br>
+                    <br>
+                    <input type="submit" value="Post"  id="submitPost">
+                    <input type="button" onclick="clearButton()" value="Clear" id="clearPost">
+    
+                </fieldset>
+            </form>
+        </div>
+        
+
+        <footer>
+            <h3>Contacts</h3>
+            <p>Email:</p>
+            <p>Phone number:</p>
+        </footer>
+
+    </body>
+</html>

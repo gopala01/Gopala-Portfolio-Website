@@ -1,0 +1,259 @@
+html, body{
+    margin: 0em;
+    padding: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    background-color: #363945;
+    color: white;
+}
+
+ul{
+    padding-left: 0em;
+}
+
+hgroup h1, hgroup h2{
+    margin-top: 0;
+    padding-top: 0;
+}
+h4, p, ul, img, figure, h3{
+    margin: 0em;
+    padding: 0em;
+}
+
+
+.navigation{
+    background-color: #363955;
+    border: solid 0.5em #363955;
+    text-align: center;
+    color: white;
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+}
+.navigation li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 2em;
+
+}
+ a:hover{
+     color: black;
+ }
+
+#main_menu{
+    border-top: solid 1em lightgreen;
+    border-bottom: solid 1em lightgreen;
+
+    background-color: lightgreen;
+}
+
+#my_photo, #my_photo img{
+    height: 20em;
+    width: 20em;
+    float: right;
+    
+}
+
+#my_photo figure{
+    height: 20em;
+    width: 20em;
+    float: right;
+}
+
+legend{
+    text-align: center;
+}
+
+.blog_buttons{
+    width: 10em;   
+    max-height: 60em;
+}
+
+footer{
+    background-color: #363955;
+    bottom: 0;
+    clear: both;
+    position: absolute;
+    text-align: center;
+    width: 96%;
+    padding:0.5%;
+    z-index:1000;    
+}
+
+form{
+    width: 20em;
+    height: 10em;
+    float: left;
+    margin-left: 20em;
+    text-align: center;
+    background-color: #0096ff;
+    text-align: center; 
+    border: 0; 
+    border: 0;
+    border-width: 0em;
+    box-shadow: none;
+
+}
+
+input{
+    border: 0;
+    border-width: 0em;
+    box-shadow: none;
+}
+#button_signup{
+    text-align: center;
+    width: 10em;
+    height: 5em;
+    border-radius: 1.5em;
+    background-color: #363955;
+    border: solid thin white;
+    color: white;
+    float: left;
+    margin-left: 25em;
+}
+
+#button_login1{
+    /*margin-top: 2em;*/
+    text-align: center;
+    width: 10em;
+    height: 5em;
+    border-radius: 1.5em;
+    background-color: #363955;
+    border: solid 1px white;
+    color: white;
+    /* float: right; */
+    /* margin-right: 25em; */
+}
+
+#add_blog_button{
+    text-align: center;
+    border-radius: 1.5em;
+    background-color: #363955;
+    border: solid thin white;
+    color: white;
+    float: left;
+    margin-left: 20em;
+    width: 10em;
+    height: 4em;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+}
+
+.validationForm{
+    background-color: #363955;
+    text-align: center;
+   margin-left: 20em;
+}
+
+.validateButton{
+    width: 10em;
+    height: 5em;
+    background-color: #0096ff;
+    border: solid thin white;
+    border-radius: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+#button_cancel{
+    width: 10em;
+    height: 5em;
+    background-color: red;
+    border: solid thin white;
+    border-radius: 1.5em;
+    color: white;
+}
+
+#addBlogForm{
+    text-align: center;
+    background-color: #363945;
+
+}
+
+#editBlogForm{
+    text-align: center;
+    background-color: #363945;
+
+}
+
+#submit{
+    width: 8em;
+    height: 5em;
+    background-color: #0096ff;
+    border: solid 1em #0096ff;
+    border-radius: 1.5em;
+    color: white;
+}
+
+#clear{
+    width: 8em;
+    height: 5em;
+    background-color: red;
+    border: solid 1em red;
+    border-radius: 1.5em;
+
+    color: white;
+}
+
+#blog_entries{
+    background-color: #363955;
+    border-radius: 1.5em;
+    width: 50em;
+    border: solid 1px white;
+    text-align: center;
+    align-items: center;
+}
+
+.nav_name{
+    color: orange;
+}
+
+#homepage_image{
+    width: 30em;
+    height: 15em;
+    border: solid thin white;
+}
+
+.projects{
+    background-color:#363955;
+}
+.projects a{
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+
+
+.makeYellow{
+    border-color: 10px yellow;
+}
+
+table{
+    border: 1px solid white;
+}
+
+#portfolio_intro{
+    text-align: center;
+}
+
+.container { 
+    height: 200px;
+    position: relative;
+    border: 3px solid green; 
+}
+  
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
