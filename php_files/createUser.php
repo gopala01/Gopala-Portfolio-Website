@@ -1,15 +1,22 @@
 <?php
+// echo "<pre>";
+// print_r($_SERVER);
+// echo "</pre>";
+// exit;
+
+session_start();
+
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-// try {
-//    $pdo = new PDO("mysql:host=localhost;dbname=my_website_db", "adminuser", "chandu2001");
-//    // set the PDO error mode to exception
-//    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-//    echo "Connected successfully";
-// } catch(PDOException $e) {
-//    echo "Connection failed: " . $e->getMessage();
-// }
+try {
+   $pdo = new PDO("mysql:host=localhost;dbname=my_website_db", "root", "");
+   // set the PDO error mode to exception
+   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+   echo "Connected successfully";
+} catch(PDOException $e) {
+   echo "Connection failed: " . $e->getMessage();
+}
 
 function createUser($username, $password, $email, $pdo) {
     try {
@@ -24,7 +31,7 @@ function createUser($username, $password, $email, $pdo) {
         $stmt->bindParam(':email', $email);
 
         $stmt->execute();
-        echo "User created successfully";
+        // echo "User created successfully";
     } catch(PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
@@ -32,7 +39,7 @@ function createUser($username, $password, $email, $pdo) {
     
 }
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if (isset($_SERVER["REQUEST_METHOD"]) && $_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['name'];
     $password = $_POST['password'];
     $email = $_POST['email']; 
@@ -45,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // echo 'User created successfully';
 
     // Redirect or output a success message
-    header('Location: ../html_files/success_page.html'); // Redirect to a success page
+    header('Location: ../website_pages/login.html'); // Redirect to login page
     //  // or just output a success message
 }
 ?>
