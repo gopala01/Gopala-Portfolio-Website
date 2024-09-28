@@ -20,7 +20,7 @@ function Hero() {
   const githubIcon = theme === "light" ? githubLight : githubDark;
 
   return (
-    <section id="hero">
+    <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
           className={styles.hero}
@@ -51,7 +51,7 @@ function Hero() {
             <img src={linkedinIcon}></img>
           </a>
         </span>
-        <p>Passion for technology</p>
+        <p className={styles.description}>Passion for technology</p>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
