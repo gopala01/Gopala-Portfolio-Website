@@ -12,7 +12,7 @@ function Projects() {
         <ProjectCard
           src={viberr}
           link={"https://github.com/gopala01/Reddit_Sentiment_Summariser"}
-          h3={"Viberr"}
+          h3={"Project 1"}
           p={"XXXX App"}
         />
         <ProjectCard
