@@ -6,3 +6,20 @@
     color: var(--footer-text-color);
   }
 }
+
+@media (width >= 800px) {
+  textarea,
+  input:not([type="submit"]) {
+    width: 600px;
+    font-size: 20px;
+  }
+  form {
+    gap: 40px;
+  }
+}
+@media (width >= 1400px) {
+  textarea,
+  input:not([type="submit"]) {
+    width: 800px;
+  }
+}
