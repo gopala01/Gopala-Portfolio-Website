@@ -12,20 +12,20 @@ function Projects() {
         <ProjectCard
           src={viberr}
           link={"https://github.com/gopala01/Reddit_Sentiment_Summariser"}
-          h3={"Project 1"}
+          h3={"Reddit Sentiment Summariser"}
           p={"XXXX App"}
         />
         <ProjectCard
           src={freshBurger}
           link={"https://github.com/gopala01/Reddit_Sentiment_Summariser"}
-          h3={"Project 2"}
+          h3={"Web Scraper"}
           p={"XXXX App"}
         />
         <ProjectCard
           src={fitLift}
           link={"https://github.com/gopala01/Reddit_Sentiment_Summariser"}
-          h3={"Project 3"}
-          p={"Fitness App"}
+          h3={"Fitness App"}
+          p={"XXXX App"}
         />
       </div>
     </section>

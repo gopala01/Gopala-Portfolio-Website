@@ -8,7 +8,7 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/Gopala-Bhamidipati-CV.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -39,7 +39,9 @@ function Hero() {
         <h1>
           Gopala <br /> Bhamidipati
         </h1>
-        <h2>Masters Student @ UCL</h2>
+        <h2>
+          MSc Artificial Intelligence and Software Engineering Student @ UCL
+        </h2>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon}></img>
