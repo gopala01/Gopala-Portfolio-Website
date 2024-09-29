@@ -1,15 +1,47 @@
 .container {
-  display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
-
-  span {
+  height: 100dvh;
+  min-height: 300px;
+  .content {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
   }
+}
 
-  img {
-    width: 10px;
+.about {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%; /* To make it circular like in the hero */
+}
+
+.colorModeContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (width >= 800px) {
+  .container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .about {
+      max-width: 350px;
+      width: 350px;
+    }
+  }
+}
+
+@media (width >= 1400px) {
+  .container {
+    .about {
+      max-width: 400px;
+      width: 400px;
+    }
   }
 }
