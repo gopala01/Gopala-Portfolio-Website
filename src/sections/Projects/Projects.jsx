@@ -1,6 +1,7 @@
 import styles from "./ProjectStyles.module.css";
 import viberr from "../../assets/viberr.png";
 import freshBurger from "../../assets/fresh-burger.png";
+import portfolio from "../../assets/portfolio.webp";
 import ProjectCard from "../../common/ProjectCard";
 import fitLift from "../../assets/fitlift.png";
 
@@ -13,19 +14,19 @@ function Projects() {
           src={viberr}
           link={"https://github.com/gopala01/Reddit_Sentiment_Summariser"}
           h3={"Reddit Sentiment Summariser"}
-          p={"XXXX App"}
+          p={"Python, Django, HTML, CSS, JavaScript"}
         />
         <ProjectCard
-          src={freshBurger}
-          link={"https://github.com/gopala01/Reddit_Sentiment_Summariser"}
-          h3={"Web Scraper"}
-          p={"XXXX App"}
+          src={portfolio}
+          link={"https://github.com/gopala01/Gopala-Portfolio-Website"}
+          h3={"Portfolio Website"}
+          p={"React, JavaScript, Vanilla CSS"}
         />
         <ProjectCard
           src={fitLift}
-          link={"https://github.com/gopala01/Reddit_Sentiment_Summariser"}
+          link={"https://github.com/gopala01/C-Sharp-Fitness-Project"}
           h3={"Fitness App"}
-          p={"XXXX App"}
+          p={"C#, Windows Form"}
         />
       </div>
     </section>
