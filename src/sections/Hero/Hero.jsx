@@ -10,7 +10,6 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import CV from "../../assets/Gopala-Bhamidipati-CV.pdf";
 import { useTheme } from "../../common/ThemeContext";
-
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
