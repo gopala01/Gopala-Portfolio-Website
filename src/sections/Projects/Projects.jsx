@@ -1,6 +1,7 @@
 import styles from "./ProjectStyles.module.css";
 import viberr from "../../assets/viberr.png";
 import freshBurger from "../../assets/fresh-burger.png";
+import sentimentLogo from "../../assets/reddit-sentiment-logo.webp";
 import portfolio from "../../assets/portfolio.webp";
 import ProjectCard from "../../common/ProjectCard";
 import fitLift from "../../assets/fitlift.png";
@@ -11,7 +12,7 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={sentimentLogo}
           link={"https://github.com/gopala01/Reddit_Sentiment_Summariser"}
           h3={"Reddit Sentiment Summariser"}
           p={"Python, Django, HTML, CSS, JavaScript"}
