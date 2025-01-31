@@ -1,6 +1,7 @@
 import styles from "./ProjectStyles.module.css";
 import viberr from "../../assets/viberr.png";
 import freshBurger from "../../assets/fresh-burger.png";
+import valentinesApp from "../../assets/valentines-flower-app.jpeg";
 import sentimentLogo from "../../assets/reddit-sentiment-logo.webp";
 import portfolio from "../../assets/portfolio.webp";
 import ProjectCard from "../../common/ProjectCard";
@@ -28,6 +29,12 @@ function Projects() {
           link={"https://github.com/gopala01/C-Sharp-Fitness-Project"}
           h3={"Fitness App"}
           p={"C#, Windows Form"}
+        />
+        <ProjectCard
+          src={valentinesApp}
+          link={"https://github.com/gopala01/Valentines-Flower-App"}
+          h3={"Valentines Flower App"}
+          p={"JavaScript, HTML, CSS"}
         />
       </div>
     </section>
