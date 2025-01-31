@@ -30,12 +30,12 @@ function Projects() {
           h3={"Fitness App"}
           p={"C#, Windows Form"}
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={valentinesApp}
           link={"https://github.com/gopala01/Valentines-Flower-App"}
           h3={"Valentines Flower App"}
           p={"JavaScript, HTML, CSS"}
-        />
+        /> */}
       </div>
     </section>
   );
