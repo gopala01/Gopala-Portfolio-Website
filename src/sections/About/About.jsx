@@ -8,18 +8,14 @@ function About() {
       <div className={styles.content}>
         <p>
           Hi, I'm <strong>Gopala Bhamidipati</strong>! I'm a computer science
-          student passionate about software and AI based in London, UK.
-        </p>
-        <p>
-          I graduated with <strong>First Class Honours</strong> in Computer
+          student passionate about software and AI based in London, UK. I
+          graduated with <strong>First Class Honours</strong> in Computer
           Science from Queen Mary University of London and am currently pursuing
           an{" "}
           <strong>
             MSc in Software, Artificial Intelligence and Data Engineering at
             UCL.
           </strong>
-        </p>
-        <p>
           This portfolio showcases my{" "}
           <strong>work, skills, and projects</strong>. Built with{" "}
           <strong>React, JavaScript, and Vanilla CSS</strong>, my portfolio
