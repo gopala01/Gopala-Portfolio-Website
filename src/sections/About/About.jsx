@@ -20,8 +20,8 @@ function About() {
           <strong>work, skills, and projects</strong>. Built with{" "}
           <strong>React, JavaScript, and Vanilla CSS</strong>, my portfolio
           reflects my commitment to writing clean, efficient and maintaibable
-          code, while ensuring my applications are responsive, and
-          user-friendly. Feel free to explore! 🚀
+          code, while ensuring my applications are responsive and user-friendly.
+          Feel free to explore! 🚀
         </p>
         <div className={styles.colorModeContainer}>
           <img
