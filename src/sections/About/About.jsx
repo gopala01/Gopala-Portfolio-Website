@@ -21,9 +21,8 @@ function About() {
           <strong>React, JavaScript, and Vanilla CSS</strong>, my portfolio
           reflects my commitment to writing clean, efficient and maintaibable
           code, while ensuring my applications are responsive, and
-          user-friendly.
+          user-friendly. Feel free to explore! 🚀
         </p>
-        <p>Feel free to explore! 🚀</p>
         <div className={styles.colorModeContainer}>
           <img
             className={styles.about}
