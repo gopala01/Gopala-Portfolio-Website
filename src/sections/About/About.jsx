@@ -7,12 +7,14 @@ function About() {
       <h1 className="sectionTitle">About</h1>
       <div className={styles.content}>
         <p>
-          My name is Gopala Bhamidipati. I am a passionate computer scientist
-          based in London, UK. I have achieved First Class Honours in my
-          Computer Science BSc Degree, which I have achieved from Queen Mary,
-          University of London. Currently, I am studying an MSc in Artificial
-          Intelligence and Data Engineering at UCL. This is my portfolio
-          website, made using React, JavaScript, and Vanilla CSS.
+          Hi, I'm Gopala Bhamidipati! I'm a passionate computer scientist based
+          in London, UK. I graduated with First Class Honours in Computer
+          Science from Queen Mary University of London and am currently pursuing
+          an MSc in Artificial Intelligence and Data Engineering at UCL. This
+          portfolio showcases my work, skills, and projects. Built with React,
+          JavaScript, and Vanilla CSS, it reflects my commitment to creating
+          clean, responsive, and user-friendly applications. Feel free to
+          explore! 🚀
         </p>
         <div className={styles.colorModeContainer}>
           <img
