@@ -10,8 +10,7 @@ function About() {
           Hi, I'm <strong>Gopala Bhamidipati</strong>! I'm a computer science
           student passionate about software development and AI based in London,
           UK. I graduated with <strong>First Class Honours</strong> in Computer
-          Science from Queen Mary University of London and am currently pursuing
-          an{" "}
+          Science from Queen Mary University of London and have completed an{" "}
           <strong>
             MSc in Software, Artificial Intelligence and Data Engineering at
             UCL.
@@ -23,7 +22,7 @@ function About() {
           <strong>clean, efficient and maintainable code</strong>, while
           ensuring my applications are{" "}
           <strong>scalable, responsive and user-friendly</strong>. Feel free to
-          explore! 🚀
+          explore!
         </p>
         <div className={styles.colorModeContainer}>
           <img
