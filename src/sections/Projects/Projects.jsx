@@ -3,6 +3,7 @@ import viberr from "../../assets/viberr.png";
 import freshBurger from "../../assets/fresh-burger.png";
 import valentinesApp from "../../assets/valentines-flower-app.jpeg";
 import sentimentLogo from "../../assets/reddit-sentiment-logo.webp";
+import distributedLogo from "../../assets/distributedlogo.png";
 import portfolio from "../../assets/portfolio.webp";
 import ProjectCard from "../../common/ProjectCard";
 import fitLift from "../../assets/fitlift.png";
@@ -13,8 +14,14 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
+          src={distributedLogo}
+          link={"https://github.com/gopala01/Distributed-Data-Automation"}
+          h3={"Distributed Data Automation"}
+          p={"Python, Terraform, Ansible, Spark, BeeGFS"}
+        />
+        <ProjectCard
           src={sentimentLogo}
-          link={"https://github.com/gopala01/Reddit_Sentiment_Summariser"}
+          link={"https://github.com/gopala01/Reddit-Sentiment-Summariser"}
           h3={"Reddit Sentiment Summariser"}
           p={"Python, Django, HTML, CSS, JavaScript"}
         />

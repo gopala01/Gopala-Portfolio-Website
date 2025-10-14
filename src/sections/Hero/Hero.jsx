@@ -38,13 +38,10 @@ function Hero() {
         <h1>
           Gopala <br /> Bhamidipati
         </h1>
-        <h2>
-          MSc Artificial Intelligence and Software Engineering Student @ UCL
-        </h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
+          {/* <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon}></img>
-          </a>
+          </a> */}
           <a href="https://github.com/gopala01" target="_blank">
             <img src={githubIcon}></img>
           </a>

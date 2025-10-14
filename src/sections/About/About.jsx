@@ -12,8 +12,7 @@ function About() {
           UK. I graduated with <strong>First Class Honours</strong> in Computer
           Science from Queen Mary University of London and have completed an{" "}
           <strong>
-            MSc in Software, Artificial Intelligence and Data Engineering at
-            UCL.
+            MSc in Artificial Intelligence and Data Engineering at UCL.
           </strong>
           This portfolio showcases my{" "}
           <strong>work, skills, and projects</strong>. Built with{" "}
