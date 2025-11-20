@@ -10,13 +10,13 @@ function About() {
           Hi, I'm <strong>Gopala Bhamidipati</strong>! I'm a computer science
           graduate based in London, UK, passionate about{" "}
           <strong>Data Engineering</strong>,{" "}
-          <strong>Artificial Intelligence</strong>
-          and <strong> Software Development</strong>. I have graduated with an
+          <strong>Artificial Intelligence</strong> and{" "}
+          <strong> Software Development</strong>. I have graduated with an
           <strong>
             {" "}
             MSc (Merit) in Artificial Intelligence and Data Engineering
-          </strong>
-          from University College London (UCL) and a
+          </strong>{" "}
+          from University College London (UCL) and a{" "}
           <strong> BSc (First Class Honours) in Computer Science</strong> from
           Queen Mary University of London.
           <br />
