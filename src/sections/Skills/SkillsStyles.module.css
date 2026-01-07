@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 40px 20px;
 
   span {
     display: flex;
@@ -14,33 +15,25 @@
   }
 }
 
-.skillList {
-  display: flex;
-  justify-content: space-evenly;
-  align-self: center;
-  flex-wrap: wrap;
-  row-gap: 40px;
-  max-width: 26ch;
-}
-
-hr {
-  width: 100px;
-  height: 1px;
-  border: none;
-  background-color: var(--text-color);
-  margin: 30px auto;
+.categoriesContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 @media (width >= 800px) {
-  .skillList {
-    max-width: fit-content;
-    gap: 30px;
-
-    p {
-      font-size: 20px;
-    }
+  .categoriesContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    padding: 40px;
   }
-  hr {
-    width: 300px;
+}
+
+@media (width >= 1200px) {
+  .categoriesContainer {
+    gap: 80px;
   }
 }

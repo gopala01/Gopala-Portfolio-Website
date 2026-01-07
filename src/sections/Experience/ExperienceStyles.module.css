@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 32px auto 0;
+  padding: 0;
+  text-align: left;
+}
+
+@media (width >= 800px) {
+  .container {
+    padding: 80px 40px;
+  }
+
+  .timeline {
+    margin: 48px auto 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .timeline {
+    max-width: 900px;
+  }
+}

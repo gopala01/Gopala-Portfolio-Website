@@ -14,6 +14,12 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
+          src={viberr}
+          link={"https://github.com/gopala01"}
+          h3={"Task Orchestration Platform"}
+          p={"Python, FastAPI, Celery, RabbitMQ, Redis, Docker"}
+        />
+        <ProjectCard
           src={distributedLogo}
           link={"https://github.com/gopala01/Distributed-Data-Automation"}
           h3={"Distributed Data Automation"}
@@ -37,12 +43,6 @@ function Projects() {
           h3={"Fitness App"}
           p={"C#, Windows Form"}
         />
-        {/* <ProjectCard
-          src={valentinesApp}
-          link={"https://github.com/gopala01/Valentines-Flower-App"}
-          h3={"Valentines Flower App"}
-          p={"JavaScript, HTML, CSS"}
-        /> */}
       </div>
     </section>
   );

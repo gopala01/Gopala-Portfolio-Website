@@ -1,54 +1,46 @@
 import styles from "./SkillsStyles.module.css";
 import checkMarkDark from "../../assets/checkmark-dark.svg";
 import checkMarkLight from "../../assets/checkmark-light.svg";
-import SkillList from "../../common/SkillList";
+import SkillCategory from "../../common/SkillCategory";
 import { useTheme } from "../../common/ThemeContext";
 
 function Skills() {
   const { theme } = useTheme();
 
   const checkMarkIcon = theme === "light" ? checkMarkLight : checkMarkDark;
+
+  const skillCategories = [
+    {
+      title: "Languages",
+      skills: ["Python", "Java", "Go", "C#", "SQL", "PHP"],
+    },
+    {
+      title: "DevOps & Cloud",
+      skills: ["Azure", "Linux", "Docker", "RabbitMQ", "Redis", "Terraform", "Ansible", "Git", "BeeGFS"],
+    },
+    {
+      title: "AI & Data",
+      skills: ["PyTorch", "TensorFlow", "Pandas", "NumPy", "Matplotlib", "Hadoop", "Spark"],
+    },
+    {
+      title: "Web & APIs",
+      skills: ["FastAPI", "React", "Django", "JavaScript", "HTML", "CSS"],
+    },
+  ];
+
   return (
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill={"Python"} />
-        <SkillList src={checkMarkIcon} skill={"Java"} />
-        <SkillList src={checkMarkIcon} skill={"Go"} />
-        <SkillList src={checkMarkIcon} skill={"C#"} />
-        <SkillList src={checkMarkIcon} skill={"SQL"} />
-        <SkillList src={checkMarkIcon} skill={"PHP"} />
+      <div className={styles.categoriesContainer}>
+        {skillCategories.map((category, index) => (
+          <SkillCategory
+            key={index}
+            title={category.title}
+            skills={category.skills}
+            checkMarkIcon={checkMarkIcon}
+          />
+        ))}
       </div>
-      <hr />
-
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill={"HTML"} />
-        <SkillList src={checkMarkIcon} skill={"CSS"} />
-        <SkillList src={checkMarkIcon} skill={"JavaScript"} />
-      </div>
-      <hr />
-
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill={"React"} />
-        <SkillList src={checkMarkIcon} skill={"Django"} />
-        <SkillList src={checkMarkIcon} skill={"Bootstrap"} />
-      </div>
-      <hr />
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill={"Git"} />
-        <SkillList src={checkMarkIcon} skill={"VS Code"} />
-        <SkillList src={checkMarkIcon} skill={"IntelliJ"} />
-      </div>
-      <hr />
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill={"Docker"} />
-        <SkillList src={checkMarkIcon} skill={"Terraform"} />
-        <SkillList src={checkMarkIcon} skill={"Ansible"} />
-        <SkillList src={checkMarkIcon} skill={"Prometheus"} />
-        <SkillList src={checkMarkIcon} skill={"Grafana"} />
-        <SkillList src={checkMarkIcon} skill={"BeeGFS"} />
-      </div>
-      <hr />
     </section>
   );
 }
