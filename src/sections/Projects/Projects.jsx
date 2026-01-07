@@ -11,8 +11,8 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link={"https://github.com/gopala01"}
           h3={"Task Orchestration Platform"}
+          link={"https://github.com/gopala01/Task-Orchestration-Platform"}
           p={"Python, FastAPI, Celery, RabbitMQ, Redis, Docker"}
         />
         <ProjectCard
