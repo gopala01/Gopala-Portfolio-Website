@@ -4,24 +4,26 @@
   gap: 20px;
   text-align: center;
   padding: 30px 20px;
-  background-color: var(--project-card-bg);
+  background-color: rgba(128, 128, 128, 0.05);
+  border: 1px solid rgba(128, 128, 128, 0.15);
   border-radius: 15px;
-  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out, background-color 200ms ease-in-out;
 }
 
 .category:hover {
   transform: translateY(-5px);
+  background-color: rgba(128, 128, 128, 0.08);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .categoryTitle {
   text-transform: uppercase;
-  color: var(--btn-color);
+  color: var(--text-color);
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  border-bottom: 2px solid var(--btn-color);
+  border-bottom: 2px solid var(--text-color);
   padding-bottom: 10px;
 }
 
