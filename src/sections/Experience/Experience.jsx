@@ -7,16 +7,11 @@ function Experience() {
       <SectionTitle title="Experience" />
       <div className={styles.timeline}>
         <ExperienceCard
-          title="Data Consultant"
+          title="Technoloy Consultant"
           company="CGI Group Inc"
           date="March 2026 - Present"
           location="London, UK"
-          responsibilities={[
-            "Processing and preparing large-scale datasets for analytics and data engineering pipelines",
-            "Building ETL/ELT pipelines to ingest, transform and validate data for high-integrity analytical outputs",
-            "Developing automated dashboards to translate complex datasets into actionable business insights",
-            "Collaborating with cross-functional client teams to gather requirements and deliver data-driven solutions aligned with business objectives",
-          ]}
+          responsibilities={[]}
         />
         <ExperienceCard
           title="Software Engineer"
