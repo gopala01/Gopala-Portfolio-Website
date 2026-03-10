@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=NTR&display=swap);
+
 .container {
   flex-direction: column;
   justify-content: center;
@@ -11,10 +13,13 @@
   }
 }
 
+p {
+  font-family: "NTR", serif;
+}
 .about {
   max-width: 200px;
   height: auto;
-  border-radius: 50%; /* To make it circular like in the hero */
+  border-radius: 50%;
 }
 
 .colorModeContainer {

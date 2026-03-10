@@ -1,0 +1,47 @@
+.projectBox {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  width: 260px;
+  height: 200px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.topLayer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.topLayer h3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.topLayer img {
+  width: 20px;
+  height: 20px;
+}
+
+.middleLayer {
+  margin-top: 10px;
+  /* flex-grow: 1; */
+}
+
+.middleLayer p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.bottomLayer {
+  margin-top: 0px;
+}
+.bottomLayer p {
+  font-size: 0.7rem;
+  opacity: 0.8;
+}

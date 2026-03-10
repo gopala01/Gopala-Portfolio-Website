@@ -39,7 +39,9 @@
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    transition:
+      box-shadow 200ms ease-in-out,
+      transform 200ms ease-in-out;
   }
 
   button:hover {
@@ -52,6 +54,8 @@
 }
 .colorModeContainer {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .colorMode {
@@ -95,5 +99,66 @@
       max-width: 400px;
       width: 400px;
     }
+  }
+}
+
+.name {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid var(--text-color);
+  animation:
+    typing 3s steps(20, end) forwards,
+    blink 0.8s infinite;
+}
+
+@keyframes typing {
+  from {
+    height: 38px;
+    width: 0;
+  }
+  to {
+    height: 38px;
+
+    width: 12ch;
+  }
+}
+
+@keyframes blink {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--text-color);
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+.dots {
+  display: inline-block;
+}
+.dots::after {
+  content: "";
+  animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+  0% {
+    content: "";
+  }
+  25% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  75% {
+    content: "...";
+  }
+  100% {
+    content: "";
   }
 }

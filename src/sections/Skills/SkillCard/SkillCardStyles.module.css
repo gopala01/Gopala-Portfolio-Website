@@ -7,7 +7,10 @@
   background-color: rgba(128, 128, 128, 0.05);
   border: 1px solid rgba(128, 128, 128, 0.15);
   border-radius: 15px;
-  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out, background-color 200ms ease-in-out;
+  transition:
+    transform 200ms ease-in-out,
+    box-shadow 200ms ease-in-out,
+    background-color 200ms ease-in-out;
 }
 
 .category:hover {

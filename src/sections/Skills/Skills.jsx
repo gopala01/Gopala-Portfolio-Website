@@ -1,45 +1,45 @@
 import styles from "./SkillsStyles.module.css";
-import checkMarkDark from "../../assets/checkmark-dark.svg";
-import checkMarkLight from "../../assets/checkmark-light.svg";
-import SkillCategory from "../../common/SkillCategory";
-import { useTheme } from "../../common/ThemeContext";
-
+import SkillCard from "./SkillCard/SkillCard";
+import SectionTitle from "../../SectionTitle/SectionTitle";
 function Skills() {
-  const { theme } = useTheme();
-
-  const checkMarkIcon = theme === "light" ? checkMarkLight : checkMarkDark;
-
-  const skillCategories = [
-    {
-      title: "Languages",
-      skills: ["Python", "Java", "Go", "C#", "SQL", "PHP"],
-    },
-    {
-      title: "DevOps & Cloud",
-      skills: ["Azure", "Linux", "Docker", "RabbitMQ", "Redis", "Terraform", "Ansible", "Git", "BeeGFS"],
-    },
-    {
-      title: "AI & Data",
-      skills: ["PyTorch", "TensorFlow", "Pandas", "NumPy", "Matplotlib", "Hadoop", "Spark"],
-    },
-    {
-      title: "Web & APIs",
-      skills: ["FastAPI", "React", "Django", "JavaScript", "HTML", "CSS"],
-    },
-  ];
-
   return (
     <section id="skills" className={styles.container}>
-      <h1 className="sectionTitle">Skills</h1>
+      <SectionTitle title="Skills" />
       <div className={styles.categoriesContainer}>
-        {skillCategories.map((category, index) => (
-          <SkillCategory
-            key={index}
-            title={category.title}
-            skills={category.skills}
-            checkMarkIcon={checkMarkIcon}
-          />
-        ))}
+        <SkillCard
+          title="Programming Languages"
+          skills={["Python", "Java", "Go", "C#", "SQL", "PHP"]}
+        />
+        <SkillCard
+          title="DevOps Tools"
+          skills={[
+            "Azure",
+            "Linux",
+            "Docker",
+            "RabbitMQ",
+            "Redis",
+            "Terraform",
+            "Ansible",
+            "Git",
+            "BeeGFS",
+          ]}
+        />
+        <SkillCard
+          title="AI & Data"
+          skills={[
+            "Apache Spark",
+            "Pandas",
+            "NumPy",
+            "PyTorch",
+            "TensorFlow",
+            "Matplotlib",
+            "Hadoop",
+          ]}
+        />
+        <SkillCard
+          title="APIs & Frameworks"
+          skills={["FastAPI", "React", "Django", "JavaScript", "HTML", "CSS"]}
+        />
       </div>
     </section>
   );

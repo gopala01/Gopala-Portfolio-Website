@@ -20,9 +20,7 @@ function ExperienceCard({ title, company, date, location, responsibilities }) {
               <span className={styles.date}>{date}</span>
             </div>
           </div>
-          <div className={styles.expandIcon}>
-            {isExpanded ? "↑" : "↓"}
-          </div>
+          <div className={styles.expandIcon}>{isExpanded ? "↑" : "↓"}</div>
         </div>
         {isExpanded && (
           <div className={styles.details}>

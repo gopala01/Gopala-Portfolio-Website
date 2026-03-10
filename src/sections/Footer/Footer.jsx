@@ -5,8 +5,8 @@ function Footer() {
     <section id="footer" className={styles.container}>
       <p>
         {" "}
-        &copy; 2025 Gopala Bhamidipati. <br />
-        All Rights Reserved
+        Designed and built by Gopala Bhamidipati. <br />
+        All Rights Reserved. &copy;
       </p>
     </section>
   );

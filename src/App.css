@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css2?family=NTR&display=swap);
+
 :root {
-  --background-color: #fff;
+  --background-color: #f5f8ff;
   --btn-color: #0987f2;
   --btn-text-color: #fff;
   --project-card-bg: #ffffff00;
@@ -8,24 +10,16 @@
   --footer-text-color: #888;
 }
 
-/* When on dark mode */
-[data-theme="dark"] {
-  --background-color: #222;
-  --btn-color: #fff;
-  --btn-text-color: #222;
-  --project-card-bg: #fff;
-  --text-color: #fff;
-  --form-text-color: #fff;
-  --footer-text-color: #bbb;
-}
-
 body {
   background-color: var(--background-color);
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 60px;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 #root {
   display: flex;
   flex-direction: column;
@@ -35,31 +29,24 @@ body {
 h1,
 h2,
 h3,
-p {
+h4,
+p,
+li {
+  font-family: "NTR", serif;
   color: var(--text-color);
   margin: 0;
   padding: 0;
 }
 
-h2,
-h3,
-p {
-  font-family: "Roboto Mono";
-}
-
-h1,
-h2 {
-  text-transform: uppercase;
-}
+/* h1 {
+  font-size: 32px;
+} */
 
 h2,
 h3 {
   font-size: 20px;
 }
-h1 {
-  font-family: "Rubik";
-  font-size: 32px;
-}
+
 p {
   font-size: 16px;
   font-weight: 300;

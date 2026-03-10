@@ -20,7 +20,6 @@
   background-color: var(--text-color);
   opacity: 0.15;
 }
-
 .timelineDot {
   min-width: 16px;
   width: 16px;
@@ -52,6 +51,7 @@
   position: relative;
   border: 1px solid rgba(128, 128, 128, 0.15);
   box-shadow: none;
+  width: 500px;
 }
 
 .experienceCard:hover {
@@ -160,7 +160,7 @@
   line-height: 1.7;
   color: var(--text-color);
   font-size: 0.9rem;
-  font-family: "Roboto Mono", monospace;
+  /* font-family: "Roboto Mono", monospace; */
   font-weight: 300;
   opacity: 0.85;
   letter-spacing: 0.01em;
