@@ -1,5 +1,4 @@
 import styles from "./AboutStyles.module.css";
-import profile from "../../assets/profile.jpeg";
 import SectionTitle from "../../SectionTitle/SectionTitle";
 function About() {
   return (
@@ -42,13 +41,6 @@ function About() {
             write about the puzzles I'm solving in tech and life.
           </p>
           <p>Welcome to my corner of the internet!</p>
-        </div>
-        <div className={styles.colorModeContainer}>
-          <img
-            className={styles.about}
-            src={profile}
-            alt="About Picture of Gopala Bhamidipati"
-          />
         </div>
       </div>
     </section>
