@@ -7,7 +7,7 @@ function Experience() {
       <SectionTitle title="Experience" />
       <div className={styles.timeline}>
         <ExperienceCard
-          title="Technoloy Consultant"
+          title="Data Consultant"
           company="CGI Group Inc"
           date="March 2026 - Present"
           location="London, UK"
