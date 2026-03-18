@@ -22,7 +22,7 @@ function Projects() {
           h3={"Distributed Data Processing System"}
           link={"https://github.com/gopala01/Distributed-Data-Automation"}
           description="A distributed data automation platform that automates the deployment and management of distributed data systems across multiple nodes."
-          p={"Python, Terraform, Ansible, Spark, BeeGFS"}
+          p={"Python,  Terraform, Ansible, Spark, BeeGFS"}
         />
         <ProjectCard
           h3={"Reddit Sentiment Summariser"}
