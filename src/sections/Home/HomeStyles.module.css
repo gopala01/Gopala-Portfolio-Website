@@ -191,3 +191,43 @@
     }
   }
 }
+
+.about {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%; /* makes it circular */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  transition:
+    transform 300ms ease,
+    box-shadow 300ms ease;
+}
+
+.about:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.imageWrapper {
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  display: inline-block;
+  box-shadow: 0 0 40px rgba(79, 70, 229, 0.3);
+}
+
+.about {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

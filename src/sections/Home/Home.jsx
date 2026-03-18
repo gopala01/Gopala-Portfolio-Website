@@ -9,11 +9,13 @@ function Home() {
         <h2 className={styles.name}>Hi, I'm Gopala!</h2>
       </div>
       <div className={styles.colorModeContainer}>
-        <img
-          className={styles.about}
-          src={profile}
-          alt="About Picture of Gopala Bhamidipati"
-        />
+        <div className={styles.imageWrapper}>
+          <img
+            className={styles.about}
+            src={profile}
+            alt="About Picture of Gopala Bhamidipati"
+          />
+        </div>
       </div>
     </section>
   );
