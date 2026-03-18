@@ -7,7 +7,7 @@ function Projects() {
       <SectionTitle title="Projects" />
       <div className={styles.projectsContainer}>
         <ProjectCard
-          h3={"Resource Management Platform (Incomplete)"}
+          h3={"Resource Management Platform"}
           link={"https://github.com/gopala01/Resource_Management_System"}
           description="Built a full-stack application using Go (REST API with CRUD, validation, and layered architecture), PostgreSQL (indexed schema with migrations), and TypeScript + React (typed API integration and state management)."
           p={"Go, TypeScript, PostgreSQL"}
