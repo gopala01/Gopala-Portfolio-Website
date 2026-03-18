@@ -6,18 +6,18 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <SectionTitle title="Projects" />
       <div className={styles.projectsContainer}>
-        {/* <ProjectCard
+        <ProjectCard
           h3={"Resource Management Platform (Incomplete)"}
           link={"https://github.com/gopala01/Resource_Management_System"}
           description="Built a full-stack application using Go (REST API with CRUD, validation, and layered architecture), PostgreSQL (indexed schema with migrations), and TypeScript + React (typed API integration and state management)."
           p={"Go, TypeScript, PostgreSQL"}
-        /> */}
-        <ProjectCard
+        />
+        {/* <ProjectCard
           h3={"Task Orchestration Platform"}
           link={"https://github.com/gopala01/Task-Orchestration-Platform"}
           description="A task orchestration platform  that allows users to define, schedule, and monitor complex workflows and tasks in a distributed environment."
           p={"Python, FastAPI, Celery, RabbitMQ, Redis, Docker"}
-        />
+        /> */}
         <ProjectCard
           h3={"Distributed Data Processing System"}
           link={"https://github.com/gopala01/Distributed-Data-Automation"}
