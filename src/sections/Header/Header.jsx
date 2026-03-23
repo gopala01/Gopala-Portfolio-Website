@@ -19,9 +19,9 @@ function Header() {
         <a href="#projects">
           <h4>Projects</h4>
         </a>
-        <a href="#skills">
+        {/* <a href="#skills">
           <h4>Skills</h4>
-        </a>
+        </a> */}
       </div>
 
       <div className={style.headerRight}>
