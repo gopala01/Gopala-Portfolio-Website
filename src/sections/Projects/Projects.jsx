@@ -33,7 +33,7 @@ function Projects() {
         <ProjectCard
           h3={"Interview Simulator"}
           link={"https://github.com/gopala01/interview-simulator"}
-          description="An interview simulator that allows users to practice their interview skills by simulating real interview scenarios."
+          description="An interview simulator that allows all users to practice their interview skills by simulating real interview scenarios."
           p={"Python, Flask, HTML, CSS, JavaScript"}
         />
       </div>
